@@ -2,7 +2,6 @@ import { Card, Button } from "react-bootstrap";
 import ControlForm from "./ControlForm";
 
 const ResultList = ({ result, removeOthers, confirmed }) => {
- 
   return (
     <div className="container mt-5" key={result?.id}>
       <div className="row justify-content-center">
