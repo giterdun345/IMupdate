@@ -77,7 +77,7 @@ const Main = () => {
   }, [searchInput, clicked]);
 
   return (
-    <>
+    <div style={{ paddingBottom: "200px" }}>
       <Header />
       <h1>Update Request For Personal Information</h1>
       <Searchbar
@@ -98,7 +98,7 @@ const Main = () => {
       ) : (
         <PreSearch />
       )}
-    </>
+    </div>
   );
 };
 
