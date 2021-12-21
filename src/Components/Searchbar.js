@@ -16,7 +16,7 @@ const Searchbar = ({ searchInput, setSearchInput, handleSearch }) => {
                   onChange={(e) => setSearchInput(e.target.value)}
                   className="form-control form-control-lg form-control-borderless"
                   type="text"
-                  placeholder="Search by using email or name"
+                  placeholder="Search by using email or first/last name"
                   aria-label="Searching with email or name"
                   aria-describedby="basic-addon2"
                 />
